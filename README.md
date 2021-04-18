@@ -1,7 +1,6 @@
 # Android-SMS-Retriever-API-SMS-Verification
 
-
-https://user-images.githubusercontent.com/62590063/115156319-1ce4d300-a09d-11eb-821f-79bc33d9391f.mp4
+https://user-images.githubusercontent.com/62590063/115156841-bf05ba80-a09f-11eb-9370-edb749158d5d.mp4
 
 
 In this repository, SMS
