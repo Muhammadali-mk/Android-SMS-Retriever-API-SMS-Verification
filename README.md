@@ -1,6 +1,9 @@
 # Android-SMS-Retriever-API-SMS-Verification
 
 
+https://user-images.githubusercontent.com/62590063/115156319-1ce4d300-a09d-11eb-821f-79bc33d9391f.mp4
+
+
 In this repository, SMS
 confirmation is implemented with SMS Retriever API.  With the help of SMS Retriever API 
 you can implement sms  confirmation  in your application automatically, without requiring any extra permission.
