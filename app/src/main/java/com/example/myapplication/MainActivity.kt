@@ -2,7 +2,7 @@ package com.example.myapplication
 
 import android.content.IntentFilter
 import android.os.Bundle
-import android.widget.TextView
+import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.SmsBroadcastReceiver.SmsBroadcastReceiverListener
@@ -11,7 +11,7 @@ import com.google.android.gms.auth.api.phone.SmsRetriever.SMS_RETRIEVED_ACTION
 
 
 class MainActivity : AppCompatActivity(), SmsBroadcastReceiverListener {
-    private lateinit var textView: TextView
+    private lateinit var textView: EditText
     private var receiver: SmsBroadcastReceiver = SmsBroadcastReceiver()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), SmsBroadcastReceiverListener {
 
     override fun onOtpReceived(otp: String?) {
         Toast.makeText(this, "Otp Received $otp", Toast.LENGTH_LONG).show()
-        textView.text = otp
+        textView.setText(otp)
     }
 
     override fun onOtpTimeout() {
