@@ -7,5 +7,7 @@ Usage:
 The message should start with <#>
 Content: any text including verification code as an example 123456 and 
 at the end of sms put>> App key hash from Keystore (Debug) eg. qJ0jGcV9akX
-<#> Your confirmation code is : 73666
+
+SMS-Example 
+<#> Your confirmation code is : 123456
 qJ0jGcV9akX
